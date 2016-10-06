@@ -2,8 +2,7 @@
   {
     "id": 1,
     "name": "grit",
-    "full
-    +_name": "mojombo/grit",
+    "full_name": "mojombo/grit",
     "owner": {
       "login": "mojombo",
       "id": 1,
@@ -30,7 +29,7 @@
     "url": "https://api.github.com/repos/mojombo/grit",
     "forks_url": "https://api.github.com/repos/mojombo/grit/forks",
     "keys_url": "https://api.github.com/repos/mojombo/grit/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/mojombo/grit/collaborators{/collaborator}",
+    "collaborators_url": "https://api.github.com/repos/mojombo/grit/collaborators",
     "teams_url": "https://api.github.com/repos/mojombo/grit/teams",
     "hooks_url": "https://api.github.com/repos/mojombo/grit/hooks",
     "issue_events_url": "https://api.github.com/repos/mojombo/grit/issues/events{/number}",
