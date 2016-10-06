@@ -29,15 +29,17 @@ function getData(url) {
 
 
 function infoFetcher(data) {
-	var mapping = ['tags_url', 'languages_url', 'forks_url', 'stargazers_url', 'contributors_url', 'subscribers_url', 'commits_url', 'downloads_url', 'issues_url', 'pulls_url'];
+	var mapping = ['tags_url', 'forks_url', 'stargazers_url', 'contributors_url', 'subscribers_url', 'commits_url', 'downloads_url', 'issues_url', 'pulls_url'];
 	var overAllInfo = [];
 	var repo_info = {};
-	for (var i = 0; i < 2; i++) {
+	for (var i = 0; i < 1; i++) {
 		repo_info['name'] = data[i].full_name;
 		for(var j=0;j< mapping.length;j++){
 			console.log(data[i][mapping[j]]);
 			repo_info[mapping[j]] = getData(data[i][mapping[j]]);
 		}
+		console.log(data[i].languages_url+'&'+credential)
+		repo_info['languages_url'] = httpGet(data[i].languages_url+'?'+credential)
 		overAllInfo.push(repo_info);
 	}
 
@@ -59,14 +61,14 @@ function writeInFiles() {
 }
 
 function fetchPublicRepos(url) {
-	// var info = '';
-	// for (var i = 6; i < 8; i++) {
-	// 	var urlWithAuth = url+'?page='+(i)+'&'+credential;
-	// 	info += httpGet(urlWithAuth);
-	// }
-	// fs.writeFileSync('../data/data1.json', info);
+	var info = '';
+	for (var i = 6; i < 8; i++) {
+		var urlWithAuth = url+'?page='+(i)+'&'+credential;
+		info += httpGet(urlWithAuth);
+	}
+	fs.writeFileSync('../data/data1.json', info);
 	writeInFiles();
 };
 
-fetchPublicRepos("https://api.github.com/repositories")
-// console.log(infoFetcher(readData('../data/new_data2.json')));
+// fetchPublicRepos("https://api.github.com/repositories")
+console.log(infoFetcher(readData('../data/new_data40.json')));
