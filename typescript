@@ -1,0 +1,710 @@
+Script started on Thu Oct  6 20:01:04 2016
+^C[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization]1;..Visualization[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m [Ksscript
+[J[0mSCRIPT    [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[39m[49m[68Cscript[K[39m[49mSCRIPT[1m=[0m
+[J[7mSCRIPT  [0m  [Jscript    [J[1;31mscripts[0m/[J[A[0m[27m[24m[39m[49m[68CSCRIPT[1m=[0m[K[39m[49m
+[7mSCRIPT  [0m  [7mSCRIPT  [0m  [A[0m[27m[24m[39m[49m[68CSCRIPT[1m=[0m[K[39m[49mscript[0m 
+[10C[7mscript  [0m  SCRIPT    [A[0m[27m[24m[39m[49m[68Cscript[K[39m[49ms[1m/[0m
+[20C[7mscripts/[0m[10Cscript    [A[0m[27m[24m[39m[49m[68Cscripts[1m/[0m[K[39m[49m
+[J[A[76C[0m [?1l>
+[J]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m [Kg[90mpr[39mg[39mt[90ms[39m[39mi[90ms[39mg[90mp[90mr[39mg[39mi[90mt[90m clone https://github.com/nabeel95/gitDataVisualization.git[39m[60D[39mt[39m_[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [58Dcredentials=nabeel95&f4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[1m [0m[0m                   [H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m git_credentials=nabeel95&f4f5d09ee4af58b6659a07c9b2ea235457e7[K[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m git_credentials=nabeel95&f4f5d09ee4af58b6659a07c9b2ea235457e7[K                                                         [90m [90mclone https://github.com/nabeel95/gitDataVisualization.git[39m[59D[90mt[39mg[90mp[90mr[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [61D [39m [39m g[90mpr[39mg[39ms[90mt[39m[39mt[?1l>
+]2;git status]1;gstOn branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    ../.idea/inspectionProfiles/Project_Default.xml[m
+	[32mdeleted:    ../.idea/inspectionProfiles/profiles_settings.xml[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   ../data/new_data120.json[m
+	[31mmodified:   ../data/new_data160.json[m
+	[31mmodified:   ../data/new_data199.json[m
+	[31mmodified:   ../data/new_data40.json[m
+	[31mmodified:   ../data/new_data80.json[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../gitDataVisualization.iml[m
+	[31m../typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [31m✖[30m [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=g[90mst[39mg[39mi[90mt[90m clone https://github.com/nabeel95/gitDataVisualization.git[39m[60D[39mt[39m [39ms[90mt[90ma[90ms[90mh[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [57D[39mt[39ma[39ms[39mh[?1l>
+]2;git stash]1;gitSaved working directory and index state WIP on master: 2253dc9 Akshay/Abhishek/Nabeel: Divided data into set of 40
+HEAD is now at 2253dc9 Akshay/Abhishek/Nabeel: Divided data into set of 40
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [33m✭[30m[37m [49m[39m [Kg[90mit stash[39m[8Dg[39mc[90mo[90m [90m.[39m[39m [39m [39m [39m [39mo[39m [39m.[?1l>
+]2;git checkout .]1;gco[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [33m✭[30m[37m [49m[39m [K[?1h=g[90mco .[39mg[39mp[90mr[39m[39m [39m [39mr[?1l>
+]2;git pull --rebase]1;gprremote: Counting objects: 11, done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+Unpacking objects:   9% (1/11)   Unpacking objects:  18% (2/11)   Unpacking objects:  27% (3/11)   remote: Total 11 (delta 8), reused 11 (delta 8), pack-reused 0[K
+Unpacking objects:  36% (4/11)   Unpacking objects:  45% (5/11)   Unpacking objects:  54% (6/11)   Unpacking objects:  63% (7/11)   Unpacking objects:  72% (8/11)   Unpacking objects:  81% (9/11)   Unpacking objects:  90% (10/11)   Unpacking objects: 100% (11/11)   Unpacking objects: 100% (11/11), done.
+From https://github.com/nabeel95/gitDataVisualization
+   2253dc9..00329ea  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to 00329ea526d55650939f4f1b07a7d2ac2866ec48.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [33m✭[30m[37m [49m[39m [Kl[90ms[39ml[39ms[?1l>
+]2;ls -G]1;lscategoriser.js fetcher.js
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=.[90m.[39m.[39m.[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization]1;..Visualization[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=c[90md gitDataVisualization[39m[22Dc[39md[39m [39mD[90me[90ms[90mk[90mt[90mo[90mp[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[39ma[39m [39m [39m [39m [39m td[2Ca[1m/[0m[0m [?1l>
+]2;cd data]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=l[90ms[39ml[39ma[?1l>
+]2;ls -G -lAh]1;latotal 3432
+-rw-r--r--  1 nabeelahmed  staff   847K Oct  6 20:02 data1.json
+-rw-r--r--  1 nabeelahmed  staff   170K Oct  6 20:02 new_data120.json
+-rw-r--r--  1 nabeelahmed  staff   169K Oct  6 20:02 new_data160.json
+-rw-r--r--  1 nabeelahmed  staff   169K Oct  6 20:02 new_data199.json
+-rw-r--r--  1 nabeelahmed  staff   173K Oct  6 20:02 new_data40.json
+-rw-r--r--  1 nabeelahmed  staff   173K Oct  6 20:02 new_data80.json
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=l[90ma[39ml[39ms[?1l>
+]2;ls -G]1;lsdata1.json       new_data120.json new_data160.json new_data199.json new_data40.json  new_data80.json
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=m[90mkdir visualization[39m[18Dm[39mk[39md[39mi[39mr[39m [39mf[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12Dinal_data[?1l>
+]2;mkdir final_data]1;mkdir[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=l[90ms[39ml[39mks[?1l>
+]2;lks]1;lkszsh: command not found: lks
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=l[90mks[39ml[39ms[39m [?1l>
+]2;ls -G]1;lsdata1.json       [1m[36mfinal_data[39;49m[0m       new_data120.json new_data160.json new_data199.json new_data40.json  new_data80.json
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=g[90mpr[39mg[39mi[90mt[90m stash[39m[39mt[39m [39ma[90md[90md[90m [90m.[39m[39md[39md[39m [39m.[?1l>
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=g[90mit add .[39m[8Dg[39ms[90mt[39m[39m [39m [39m [39m [39m [39m [39mt[?1l>
+]2;git status]1;gstOn branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   ../scripts/fetcher.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../gitDataVisualization.iml[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=g[90mst[39mg[39ms[39mt[?1l>
+]2;git status]1;gstOn branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   ../scripts/fetcher.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../gitDataVisualization.iml[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=g[90mst[39mg[39mi[90mt[90m add .[39m[39mt[39m [39ma[39md[39md[39m [39m-[90mp[39m[39mp[?1l>
+]2;git add -p]1;git[1mdiff --git a/scripts/fetcher.js b/scripts/fetcher.js[m
+[1mindex 33aa5bd..6cf5a7a 100644[m
+[1m--- a/scripts/fetcher.js[m
+[1m+++ b/scripts/fetcher.js[m
+[36m@@ -3,72 +3,73 @@[m [mvar XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;[m
+ var credential = process.env['git_credential'];[m
+ [m
+ function readData(fileName) {[m
+[31m-	return JSON.parse(fs.readFileSync(fileName, 'utf-8', function(err, data){}));[m
+[32m+[m[32m    return JSON.parse(fs.readFileSync(fileName, 'utf-8', function (err, data) {[m
+[32m+[m[32m    }));[m
+ }[m
+ [m
+ function httpGet(theUrl) {[m
+[31m-	var xmlHttp = new XMLHttpRequest();[m
+[31m-	xmlHttp.open( "GET", theUrl, false );[m
+[31m-	xmlHttp.send( null );[m
+[31m-	return xmlHttp.responseText;[m
+[32m+[m[32m    var xmlHttp = new XMLHttpRequest();[m
+[32m+[m[32m    xmlHttp.open("GET", theUrl, false);[m
+[32m+[m[32m    xmlHttp.send(null);[m
+[32m+[m[32m    return xmlHttp.responseText;[m
+ }[m
+ [m
+ function getData(url) {[m
+[31m-	var infoExist = 1;[m
+[31m-	var page = 1;[m
+[31m-	var length = 0;[m
+[31m-	while(infoExist > 0){[m
+[31m-		urlWithAuth = url+'?page='+page+'&'+credential;[m
+[31m-		var info = JSON.parse(httpGet(urlWithAuth));[m
+[31m-		infoExist = info.length;[m
+[31m-		page ++;[m
+[31m-		length += info.length;[m
+[31m-	}[m
+[31m-	return length;[m
+[32m+[m[32m    var infoExist = 1;[m
+[32m+[m[32m    var page = 1;[m
+[32m+[m[32m    var length = 0;[m
+[32m+[m[32m    while (infoExist > 0) {[m
+[32m+[m[32m        urlWithAuth = url + '?page=' + page + '&' + credential;[m
+[32m+[m[32m        var info = JSON.parse(httpGet(urlWithAuth));[m
+[32m+[m[32m        infoExist = info.length;[m
+[32m+[m[32m        page++;[m
+[32m+[m[32m        length += info.length;[m
+[32m+[m[32m    }[m
+[32m+[m[32m    return length;[m
+ };[m
+ [m
+ [m
+ function infoFetcher(data) {[m
+[31m-	var mapping = ['tags_url', 'forks_url', 'stargazers_url', 'contributors_url', 'subscribers_url', 'commits_url', 'downloads_url', 'issues_url', 'pulls_url'];[m
+[31m-	var overAllInfo = [];[m
+[31m-	var repo_info = {};[m
+[31m-	for (var i = 0; i < 1; i++) {[m
+[31m-		repo_info['name'] = data[i].full_name;[m
+[31m-		for(var j=0;j< mapping.length;j++){[m
+[31m-			console.log(data[i][mapping[j]]);[m
+[31m-			repo_info[mapping[j]] = getData(data[i][mapping[j]]);[m
+[31m-		}[m
+[31m-		console.log(data[i].languages_url+'&'+credential)[m
+[31m-		repo_info['languages_url'] = httpGet(data[i].languages_url+'?'+credential)[m
+[31m-		overAllInfo.push(repo_info);[m
+[31m-	}[m
+[32m+[m[32m    var mapping = ['tags_url', 'forks_url', 'stargazers_url', 'contributors_url', 'subscribers_url', 'commits_url', 'downloads_url', 'issues_url', 'pulls_url'];[m
+[32m+[m[32m    var overAllInfo = [];[m
+[32m+[m[32m    var repo_info = {};[m
+[32m+[m[32m    for (var i = 0; i < 1; i++) {[m
+[32m+[m[32m        repo_info['name'] = data[i].full_name;[m
+[32m+[m[32m        for (var j = 0; j < mapping.length; j++) {[m
+[32m+[m[32m            console.log(data[i][mapping[j]]);[m
+[32m+[m[32m            repo_info[mapping[j]] = getData(data[i][mapping[j]]);[m
+[32m+[m[32m        }[m
+[32m+[m[32m        console.log(data[i].languages_url + '&' + credential)[m
+[32m+[m[32m        repo_info['languages_url'] = httpGet(data[i].languages_url + '?' + credential)[m
+[32m+[m[32m        overAllInfo.push(repo_info);[m
+[32m+[m[32m    }[m
+ [m
+[31m-	return overAllInfo;[m
+[32m+[m[32m    return overAllInfo;[m
+ }[m
+ [m
+ function writeInFiles() {[m
+[31m-	var info = readData('../data/data1.json');[m
+[31m-	var subData = [];[m
+[31m-	for (var i = 0; i < info.length; i++) {[m
+[31m-		subData.push(JSON.stringify(info[i], undefined, 4));[m
+[31m-		var breaker = [40, 80,120, 160, 199];[m
+[31m-		if(breaker.indexOf(i) != -1) {[m
+[31m-			var fileName = '../data/new_data'+i+'.json';[m
+[31m-			fs.writeFileSync(fileName, subData);[m
+[31m-			subData = [];[m
+[31m-		}[m
+[31m-	}[m
+[32m+[m[32m    var info = readData('../data/data1.json');[m
+[32m+[m[32m    var subData = [];[m
+[32m+[m[32m    for (var i = 0; i < info.length; i++) {[m
+[32m+[m[32m        subData.push(JSON.stringify(info[i], undefined, 4));[m
+[32m+[m[32m        var breaker = [40, 80, 120, 160, 199];[m
+[32m+[m[32m        if (breaker.indexOf(i) != -1) {[m
+[32m+[m[32m            var fileName = '../data/new_data' + i + '.json';[m
+[32m+[m[32m            fs.writeFileSync(fileName, subData);[m
+[32m+[m[32m            subData = [];[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+ }[m
+ [m
+ function fetchPublicRepos(url) {[m
+[31m-	var info = '';[m
+[31m-	for (var i = 6; i < 8; i++) {[m
+[31m-		var urlWithAuth = url+'?page='+(i)+'&'+credential;[m
+[31m-		info += httpGet(urlWithAuth);[m
+[31m-	}[m
+[31m-	fs.writeFileSync('../data/data1.json', info);[m
+[31m-	writeInFiles();[m
+[32m+[m[32m    var info = '';[m
+[32m+[m[32m    for (var i = 6; i < 8; i++) {[m
+[32m+[m[32m        var urlWithAuth = url + '?page=' + (i) + '&' + credential;[m
+[32m+[m[32m        info += httpGet(urlWithAuth);[m
+[32m+[m[32m    }[m
+[32m+[m[32m    fs.writeFileSync('../data/data1.json', info);[m
+[32m+[m[32m    writeInFiles();[m
+ };[m
+ [m
+ // fetchPublicRepos("https://api.github.com/repositories")[m
+[31m-console.log(infoFetcher(readData('../data/new_data40.json')));[m
+\ No newline at end of file[m
+[32m+[m[32mconsole.log(infoFetcher(readData('../data/new_data120.json')));[m
+\ No newline at end of file[m
+[1;34mStage this hunk [y,n,q,a,d,/,s,e,?]? [mq
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/data]1;..lization/data[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/data[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K.[90m.[39m.[39m.[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization]1;..Visualization[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=s[90mcripts[39ms[39mc[39mr[39mi[39mp[39mt[39ms[?1l>
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=scripts..     git add -p[10Dgs[2C      git add -p[10D..        [8Dscripts       g[90mit add -p[39m[9Dg[39mi[39mt[39m [39ma[39md[39md[39m [39m-[39mp. -p[90ma[90md[90md[90m [90m-[90mp[39m[90m [39m[39m_[39m [39m [39m [39m [39m [39m credentials=nabeels 95&f4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[1m [0m[0m [1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C'nabeel95&f4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[65D[1C[1C[1C[1C[1C[1C[1C[1C[1Caf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dcf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dcf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Def4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dsf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dsf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56D_f4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dtf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dof4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dkf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Def4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56Dnf4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56D=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b node fetcher.js[56D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C' node fetcher.js[16D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[P[81C [82D[?1l>
+]2;git_credential= node fetcher.js]1;nodemodule.js:440
+    throw err;
+    ^
+
+Error: Cannot find module 'xmlhttprequest'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/nabeelahmed/projects/gitDataVisualization/scripts/fetcher.js:2:22)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=n[90mpm i[39mn[39mp[39mm[39m [39mi[?1l>
+]2;npm i]1;npm[?25l[0GnormalizeTree             ▄ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GnormalizeTree → install   ▐ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▌ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▀ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▐ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=.[90m.[39m.[39m.[?1l>
+]2;..]1;..[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization]1;..Visualization[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=n[90mpm i[39mn[39mp[39mm[39m [39mi[?1l>
+]2;npm i]1;npm[?25l[0GnormalizeTree             ▄ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GnormalizeTree → install   ▌ ╢░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▀ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▐ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▄ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → get       ▀ ╢██████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▐ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▐ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▄ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▌ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▐ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → get       ▄ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → addNameRa ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▄ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▌ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▌ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → network   ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → resolveWi ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → afterAdd  ▀ ╢███████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢█████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▌ ╢█████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▀ ╢██████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▀ ╢██████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢██████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▄ ╢██████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → request   ▌ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▀ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▄ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▌ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▀ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▀ ╢███████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▄ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▌ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▌ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▀ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▄ ╢███████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▌ ╢████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▀ ╢████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → 304       ▐ ╢█████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0GfetchMetadata → headers   ▄ ╢█████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gfetch → lock              ▀ ╢███████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gextract:xmlhttprequest →  ▐ ╢███████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gextract:xmlhttprequest →  ▌ ╢███████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gextract:xmlhttprequest →  ▄ ╢███████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gextract:minimatch → gunzT ▌ ╢████████████████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gextract:debug → gentlyRm  ▌ ╢███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gpreinstall:xmlhttprequest ▐ ╢████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[1A[?25l[0Gbuild:minimist → gentlyRm ▐ ╢██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████░░░░░░░░░░░░░░░░░░░░░╟
+[?25h[?25h[1A[0G[K[?25h[0G[KgitDataVisualization@1.0.0 /Users/nabeelahmed/projects/gitDataVisualization
+├─┬ [40m[33mmocha@3.1.0[39m[49m 
+│ ├── [40m[33mbrowser-stdout@1.3.0[39m[49m 
+│ ├─┬ [40m[33mcommander@2.9.0[39m[49m 
+│ │ └── [40m[33mgraceful-readlink@1.0.1[39m[49m 
+│ ├─┬ [40m[33mdebug@2.2.0[39m[49m 
+│ │ └── [40m[33mms@0.7.1[39m[49m 
+│ ├── [40m[33mdiff@1.4.0[39m[49m 
+│ ├── [40m[33mescape-string-regexp@1.0.5[39m[49m 
+│ ├─┬ [40m[33mglob@7.0.5[39m[49m 
+│ │ ├── [40m[33mfs.realpath@1.0.0[39m[49m 
+│ │ ├─┬ [40m[33minflight@1.0.5[39m[49m 
+│ │ │ └── [40m[33mwrappy@1.0.2[39m[49m 
+│ │ ├── [40m[33minherits@2.0.3[39m[49m 
+│ │ ├─┬ [40m[33mminimatch@3.0.3[39m[49m 
+│ │ │ └─┬ [40m[33mbrace-expansion@1.1.6[39m[49m 
+│ │ │   ├── [40m[33mbalanced-match@0.4.2[39m[49m 
+│ │ │   └── [40m[33mconcat-map@0.0.1[39m[49m [?25h[0G[K[37m[40mnpm[0m [0m[30m[43mWARN[0m[35m[0m gitDataVisualization@1.0.0 No description
+[0m[?25h[0G[K[?25h[0G[K
+│ │ ├── [40m[33monce@1.4.0[39m[49m 
+│ │ └── [40m[33mpath-is-absolute@1.0.1[39m[49m 
+│ ├── [40m[33mgrowl@1.9.2[39m[49m 
+│ ├── [40m[33mjson3@3.3.2[39m[49m 
+│ ├─┬ [40m[33mlodash.create@3.1.1[39m[49m 
+│ │ ├─┬ [40m[33mlodash._baseassign@3.2.0[39m[49m 
+│ │ │ ├── [40m[33mlodash._basecopy@3.0.1[39m[49m 
+│ │ │ └─┬ [40m[33mlodash.keys@3.1.2[39m[49m 
+│ │ │   ├── [40m[33mlodash._getnative@3.9.1[39m[49m 
+│ │ │   ├── [40m[33mlodash.isarguments@3.1.0[39m[49m 
+│ │ │   └── [40m[33mlodash.isarray@3.0.4[39m[49m 
+│ │ ├── [40m[33mlodash._basecreate@3.0.3[39m[49m 
+│ │ └── [40m[33mlodash._isiterateecall@3.0.9[39m[49m 
+│ ├─┬ [40m[33mmkdirp@0.5.1[39m[49m 
+│ │ └── [40m[33mminimist@0.0.8[39m[49m 
+│ └─┬ [40m[33msupports-color@3.1.2[39m[49m 
+│   └── [40m[33mhas-flag@1.0.0[39m[49m 
+└── [40m[33mxmlhttprequest@1.8.0[39m[49m 
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization]1;..Visualization[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=npm i..   npm igit_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[95Dnpm i                                                                                          [90D..   npm i     s[90mcripts[39ms[39mc[39mr[39mi[39mp[39mt[39ms[?1l>
+]2;scripts]1;scripts[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=scriptsnpm i  ..   npm igit_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;nodehttps://api.github.com/repos/kevinclark/god/tags
+https://api.github.com/repos/kevinclark/god/forks
+https://api.github.com/repos/kevinclark/god/stargazers
+https://api.github.com/repos/kevinclark/god/contributors
+https://api.github.com/repos/kevinclark/god/subscribers
+https://api.github.com/repos/kevinclark/god/commits
+https://api.github.com/repos/kevinclark/god/downloads
+https://api.github.com/repos/kevinclark/god/issues
+https://api.github.com/repos/kevinclark/god/pulls
+https://api.github.com/repos/hornbeck/blerb-core/tags
+https://api.github.com/repos/hornbeck/blerb-core/forks
+https://api.github.com/repos/hornbeck/blerb-core/stargazers
+https://api.github.com/repos/hornbeck/blerb-core/contributors
+https://api.github.com/repos/hornbeck/blerb-core/subscribers
+https://api.github.com/repos/hornbeck/blerb-core/commits
+https://api.github.com/repos/hornbeck/blerb-core/downloads
+https://api.github.com/repos/hornbeck/blerb-core/issues
+https://api.github.com/repos/hornbeck/blerb-core/pulls
+[ { name: 'hornbeck/blerb-core',
+    tags_url: 0,
+    forks_url: 2,
+    stargazers_url: 27,
+    contributors_url: 8,
+    subscribers_url: 4,
+    commits_url: 134,
+    downloads_url: 0,
+    issues_url: 0,
+    pulls_url: 0,
+    languages_url: '{"Ruby":102917,"JavaScript":102391,"PHP":1052}' },
+  { name: 'hornbeck/blerb-core',
+    tags_url: 0,
+    forks_url: 2,
+    stargazers_url: 27,
+    contributors_url: 8,
+    subscribers_url: 4,
+    commits_url: 134,
+    downloads_url: 0,
+    issues_url: 0,
+    pulls_url: 0,
+    languages_url: '{"Ruby":102917,"JavaScript":102391,"PHP":1052}' } ]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [Kgit_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;node{ name: 'kevinclark/god', tags_url: 0 }
+{ name: 'kevinclark/god', tags_url: 0, forks_url: 0 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324,
+  downloads_url: 0 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324,
+  downloads_url: 0,
+  issues_url: 0 }
+{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0 }
+[ { name: 'kevinclark/god',
+    tags_url: 0,
+    forks_url: 0,
+    stargazers_url: 4,
+    contributors_url: 5,
+    subscribers_url: 2,
+    commits_url: 324,
+    downloads_url: 0,
+    issues_url: 0,
+    pulls_url: 0,
+    languages_url: '{"Ruby":179074,"C":8723,"JavaScript":6567}' } ]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=git_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;node[ { name: 'kevinclark/god',
+    tags_url: 0,
+    forks_url: 0,
+    stargazers_url: 4,
+    contributors_url: 5,
+    subscribers_url: 2,
+    commits_url: 324,
+    downloads_url: 0,
+    issues_url: 0,
+    pulls_url: 0,
+    languages_url: '{"Ruby":179074,"C":8723,"JavaScript":6567}' } ]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [Kgit_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;node^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[H[2J[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [Kgit_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;node{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":179074,"C":8723,"JavaScript":6567}' }
+{ name: 'hornbeck/blerb-core',
+  tags_url: 0,
+  forks_url: 2,
+  stargazers_url: 27,
+  contributors_url: 8,
+  subscribers_url: 4,
+  commits_url: 134,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":102917,"JavaScript":102391,"PHP":1052}' }
+{ name: 'brosner/django-mptt',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 62,
+  contributors_url: 3,
+  subscribers_url: 1,
+  commits_url: 102,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Python":114230}' }
+{ name: 'technomancy/bus-scheme',
+  tags_url: 0,
+  forks_url: 5,
+  stargazers_url: 32,
+  contributors_url: 3,
+  subscribers_url: 4,
+  commits_url: 212,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":54320,"Scheme":5384}' }
+{ name: 'Caged/javascript-bits',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 30,
+  contributors_url: 1,
+  subscribers_url: 1,
+  commits_url: 8,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"JavaScript":213271,"Ruby":5242}' }
+{ name: 'Caged/groomlake',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 5,
+  contributors_url: 1,
+  subscribers_url: 1,
+  commits_url: 18,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":9181}' }
+{ name: 'sevenwire/forgery',
+  tags_url: 6,
+  forks_url: 89,
+  stargazers_url: 733,
+  contributors_url: 36,
+  subscribers_url: 20,
+  commits_url: 255,
+  downloads_url: 0,
+  issues_url: 9,
+  pulls_url: 5,
+  languages_url: '{"Ruby":64289,"HTML":312}' }
+{ name: 'technicalpickles/ambitious-sphinx',
+  tags_url: 0,
+  forks_url: 2,
+  stargazers_url: 13,
+  contributors_url: 1,
+  subscribers_url: 2,
+  commits_url: 56,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":10725}' }
+{ name: 'lazyatom/soup',
+  tags_url: 17,
+  forks_url: 5,
+  stargazers_url: 18,
+  contributors_url: 2,
+  subscribers_url: 4,
+  commits_url: 163,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":24992}' }
+	^C
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;nabeelahmed@in-4: ~/projects/gitDataVisualization/scripts]1;..ation/scripts[0m[27m[24m[J
+[42m[30m @in-4.local [49m[39m[32m[44m[49m[39m[37m[44m ~/projects/gitDataVisualization/scripts[34m [34m[47m[37m[30m[47m  master ✘ [34m✹[30m [33m✭[30m[37m [49m[39m [K[?1h=git_credential='nabeel95&access_token=f4f5d09ee4af58b6659a07c9b2ea235457e76f9b' node fetcher.js[?1l>
+]2;git_credential= node fetcher.js]1;node^L{ name: 'kevinclark/god',
+  tags_url: 0,
+  forks_url: 0,
+  stargazers_url: 4,
+  contributors_url: 5,
+  subscribers_url: 2,
+  commits_url: 324,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":179074,"C":8723,"JavaScript":6567}' }
+{ name: 'hornbeck/blerb-core',
+  tags_url: 0,
+  forks_url: 2,
+  stargazers_url: 27,
+  contributors_url: 8,
+  subscribers_url: 4,
+  commits_url: 134,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":102917,"JavaScript":102391,"PHP":1052}' }
+{ name: 'brosner/django-mptt',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 62,
+  contributors_url: 3,
+  subscribers_url: 1,
+  commits_url: 102,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Python":114230}' }
+{ name: 'technomancy/bus-scheme',
+  tags_url: 0,
+  forks_url: 5,
+  stargazers_url: 32,
+  contributors_url: 3,
+  subscribers_url: 4,
+  commits_url: 212,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":54320,"Scheme":5384}' }
+{ name: 'Caged/javascript-bits',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 30,
+  contributors_url: 1,
+  subscribers_url: 1,
+  commits_url: 8,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"JavaScript":213271,"Ruby":5242}' }
+{ name: 'Caged/groomlake',
+  tags_url: 0,
+  forks_url: 1,
+  stargazers_url: 5,
+  contributors_url: 1,
+  subscribers_url: 1,
+  commits_url: 18,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":9181}' }
+{ name: 'sevenwire/forgery',
+  tags_url: 6,
+  forks_url: 89,
+  stargazers_url: 733,
+  contributors_url: 36,
+  subscribers_url: 20,
+  commits_url: 255,
+  downloads_url: 0,
+  issues_url: 9,
+  pulls_url: 5,
+  languages_url: '{"Ruby":64289,"HTML":312}' }
+{ name: 'technicalpickles/ambitious-sphinx',
+  tags_url: 0,
+  forks_url: 2,
+  stargazers_url: 13,
+  contributors_url: 1,
+  subscribers_url: 2,
+  commits_url: 56,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":10725}' }
+{ name: 'lazyatom/soup',
+  tags_url: 17,
+  forks_url: 5,
+  stargazers_url: 18,
+  contributors_url: 2,
+  subscribers_url: 4,
+  commits_url: 163,
+  downloads_url: 0,
+  issues_url: 0,
+  pulls_url: 0,
+  languages_url: '{"Ruby":24992}' }
