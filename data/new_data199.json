@@ -1,4 +1,4 @@
-[{
+{
     "id": 211,
     "name": "simply_versioned",
     "full_name": "bmizerany/simply_versioned",
@@ -2494,4 +2494,4 @@
     "labels_url": "https://api.github.com/repos/collectiveidea/calendar_builder/labels",
     "releases_url": "https://api.github.com/repos/collectiveidea/calendar_builder/releases",
     "deployments_url": "https://api.github.com/repos/collectiveidea/calendar_builder/deployments"
-}]
+}

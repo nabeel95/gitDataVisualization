@@ -1,0 +1,80 @@
+[
+  {
+    "name": "peterc/switchpipe",
+    "tags_url": 0,
+    "forks_url": 0,
+    "stargazers_url": 12,
+    "contributors_url": 0,
+    "subscribers_url": 3,
+    "commits_url": 1,
+    "downloads_url": 0,
+    "issues_url": 0,
+    "pulls_url": 0,
+    "languages_url": "{\"Ruby\":28684,\"Python\":299}"
+  },
+  {
+    "name": "hornbeck/arc",
+    "tags_url": 0,
+    "forks_url": 2,
+    "stargazers_url": 6,
+    "contributors_url": 2,
+    "subscribers_url": 2,
+    "commits_url": 19,
+    "downloads_url": 0,
+    "issues_url": 0,
+    "pulls_url": 0,
+    "languages_url": "{\"Arc\":203354,\"Scheme\":74465,\"Shell\":486}"
+  },
+  {
+    "name": "up_the_irons/ebay4r",
+    "tags_url": 1,
+    "forks_url": 5,
+    "stargazers_url": 30,
+    "contributors_url": 2,
+    "subscribers_url": 3,
+    "commits_url": 141,
+    "downloads_url": 0,
+    "issues_url": 0,
+    "pulls_url": 0,
+    "languages_url": "{\"Ruby\":3701510}"
+  },
+  {
+    "name": "wycats/merb-plugins",
+    "tags_url": 12,
+    "forks_url": 60,
+    "stargazers_url": 213,
+    "contributors_url": 48,
+    "subscribers_url": 15,
+    "commits_url": 593,
+    "downloads_url": 0,
+    "issues_url": 2,
+    "pulls_url": 1,
+    "languages_url": "{\"JavaScript\":116753,\"Ruby\":102754,\"Perl\":102}"
+  },
+  {
+    "name": "up_the_irons/ram",
+    "tags_url": 0,
+    "forks_url": 0,
+    "stargazers_url": 7,
+    "contributors_url": 1,
+    "subscribers_url": 3,
+    "commits_url": 267,
+    "downloads_url": 0,
+    "issues_url": 0,
+    "pulls_url": 0,
+    "languages_url": "{\"Ruby\":287948,\"JavaScript\":35067}"
+  },
+  {
+    "name": "defunkt/ambitious_activeldap",
+    "tags_url": 0,
+    "forks_url": 2,
+    "stargazers_url": 6,
+    "contributors_url": 2,
+    "subscribers_url": 1,
+    "commits_url": 10,
+    "downloads_url": 0,
+    "issues_url": 0,
+    "pulls_url": 0,
+    "languages_url": "{\"Ruby\":8378}"
+  }
+]

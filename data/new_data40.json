@@ -1,4 +1,4 @@
-[{
+{
     "id": 1,
     "name": "grit",
     "full_name": "mojombo/grit",
@@ -2622,4 +2622,4 @@
     "labels_url": "https://api.github.com/repos/benburkert/schemr/labels",
     "releases_url": "https://api.github.com/repos/benburkert/schemr/releases",
     "deployments_url": "https://api.github.com/repos/benburkert/schemr/deployments"
-}]
+}

@@ -4,44 +4,50 @@ var categoriser = require('../scripts/categoriser');
 describe('categoriser', function () {
     var rawData;
     beforeEach(function () {
-            rawData = [{
-                name: 'facebook/nuclied',
-                forks: 3234,
-                stars: 234234,
-                languages: ['Javascript'],
-                contributors: 23,
-                issues: 200
-            },
-                {
-                    name: 'facebook/gogo',
-                    forks: 2342,
-                    stars: 234234,
-                    languages: ['Scala', 'Javascript'],
-                    contributors: 23,
-                    issues: 433
-                }];
+            rawData = [{ name: 'abhay/calais',
+                         tags_url: 13,
+                         forks_url: 46,
+                         stargazers_url: 137,
+                         contributors_url: 13,
+                         subscribers_url: 6,
+                         commits_url: 129,
+                         downloads_url: 0,
+                         issues_url: 6,
+                         pulls_url: 6,
+                         languages_url: '{"Ruby":24665}' },
+                        { name: 'mojombo/chronic',
+                          tags_url: 22,
+                          forks_url: 330,
+                          stargazers_url: 2564,
+                          contributors_url: 41,
+                          subscribers_url: 77,
+                          commits_url: 594,
+                          downloads_url: 0,
+                          issues_url: 112,
+                          pulls_url: 20,
+                          languages_url: '{"Ruby":190560}' }];
     });
 
     describe('categoriseByLanguage', function () {
         it('should categorise data according to the languages', function () {
 
             var expected = JSON.stringify({
-                    "Javascript": {"USERS": 2, "STARS": 234234 * 2, "FORKS": 5576},
-                    "Scala": {"USERS": 1, "STARS": 234234, "FORKS": 2342},
+                    "Ruby": {"USERS": 2, "STARS": 137 + 2564, "FORKS": 46 + 330},
                 });
             var actualData = JSON.stringify(categoriser.categoriseByLanguage(rawData));
             assert.equal(expected, actualData);
         });
 
-     describe('categoriseByProject', function () {
-         it('should categorise data according to projects', function () {
+     describe('categoriseByCommunity', function () {
+         it('should categorise data according to community or indivisual', function () {
             var expected = JSON.stringify({
-                "nuclied": {"CONTRIBUTORS": 23, "ISSUES": 200},
-                "gogo": {"CONTRIBUTORS": 23, "ISSUES": 433}
+                "abhay": {"calais": {"CONTRIBUTORS": 13, "ISSUES": 6, "SUBSCRIBERS": 6, "COMMITS": 129}},
+                "mojombo": {"chronic": {"CONTRIBUTORS": 41, "ISSUES": 112, "SUBSCRIBERS": 77, "COMMITS": 594}}
             })
-             var actualData = JSON.stringify(categoriser.categoriseByProject(rawData));
+             var actualData = JSON.stringify(categoriser.categoriseByCommunity(rawData));
              assert.equal(expected, actualData);
          })
      })
+
     });
 });

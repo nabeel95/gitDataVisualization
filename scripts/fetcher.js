@@ -72,6 +72,7 @@ function fetchPublicRepos(url) {
     writeInFiles();
 };
 
+
 function seperateIntoFive(fileName) {
     var data = readData('../data/new_data120.json');
     var arr = [];
@@ -85,5 +86,5 @@ function seperateIntoFive(fileName) {
     }
 }
 
-// console.log(fileByArg, fileByArg.replace('raw', 'final'));
-// infoFetcher(readData(fileByArg));
+console.log(fileByArg, fileByArg.replace('raw', 'final'));
+infoFetcher(readData(fileByArg));
