@@ -40,14 +40,39 @@ categoriser.categoriseByCommunity = function(rawData) {
 categoriser.languageByIssues = function(rawData) {
     var languageIssues = {};
     for (var i = 0; i < rawData.length; i++) {
-        var oneRepo = rawData[i];
-        var languages = oneRepo['languages_url'];
-        for(lang in languages) {
-            if(!languageIssues.hasOwnProperty(lang))
-                languageIssues[lang] = {name: lang, issues_url: 0};
-            languageIssues[lang]['issues_url'] += oneRepo['issues_url'];
+        var data = rawData[i];
+        var languages = data['languages'];
+        for(var j = 0; j < languages.length; j++){
+            language = languages[j];
+            if(languageIssues.hasOwnProperty(language)){
+                languageIssues[language]['issues'] += parseInt(data['issues']);
+            }
+            else{
+                languageIssues[language] = {issues: parseInt(data['issues'])};
+            }
         }
     }
     return languageIssues;
 }
+
+categoriser.popularLanguage = function(rawData){
+    var popularLanguages = {};
+    for(var i = 0; i < rawData.length; i++){
+        var data = rawData[i];
+        var languages = data["languages"];
+        for(var j = 0; j < languages.length; j++){
+            language = languages[j];
+            if(popularLanguages.hasOwnProperty(language)){
+                popularLanguages[language]['count'] ++;
+                popularLanguages[language]['star'] += data['star'];
+            }
+            else{
+                popularLanguages[language]={count : 1, star : data['star']};
+            }
+
+        }
+    }
+    return popularLanguages;
+}
+
 module.exports = categoriser;
