@@ -7,8 +7,8 @@ class Exec
   WRITABLE_FILE_PATH = '../data/4500.json'
   READABLE_FILE_PATH = '../data/final_data.json'
   ERROR_FILE = '../data/errors.json'
-  CREDENTIALS = 'akshay234&access_token=0ee5afe6607836b0512bf85210a35d6ccd57028f'
-
+  CREDENTIALS = # put your credential  here
+  
   def in_hash languages_url, name, contributors_url
     params = {}
 
