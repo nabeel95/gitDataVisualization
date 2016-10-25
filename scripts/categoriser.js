@@ -42,12 +42,10 @@ categoriser.languageByIssues = function(rawData) {
     for (var i = 0; i < rawData.length; i++) {
         var oneRepo = rawData[i];
         var languages = oneRepo['languages_url'];
-        var langs = Object.keys(languages);
-        for(var j = 0; j < langs.length; j++){
-            if(!languageIssues.hasOwnProperty(langs[j])){
-                languageIssues[langs[j]] = {name: langs[j], issues_url: 0};
-            }
-            languageIssues[langs[j]]['issues_url'] += oneRepo['issues_url'];
+        for(lang in languages) {
+            if(!languageIssues.hasOwnProperty(lang))
+                languageIssues[lang] = {name: lang, issues_url: 0};
+            languageIssues[lang]['issues_url'] += oneRepo['issues_url'];
         }
     }
     return languageIssues;

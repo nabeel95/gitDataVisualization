@@ -46,8 +46,8 @@ describe('categoriser', function () {
             })
              var actualData = JSON.stringify(categoriser.categoriseByCommunity(rawData));
              assert.equal(expected, actualData);
-         })
-     })
+         });
+     });
 
     });
 });
