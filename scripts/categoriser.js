@@ -36,4 +36,20 @@ categoriser.categoriseByCommunity = function(rawData) {
     });
     return categorizedData;
 }
+
+categoriser.languageByIssues = function(rawData) {
+    var languageIssues = {};
+    for (var i = 0; i < rawData.length; i++) {
+        var oneRepo = rawData[i];
+        var languages = oneRepo['languages_url'];
+        var langs = Object.keys(languages);
+        for(var j = 0; j < langs.length; j++){
+            if(!languageIssues.hasOwnProperty(langs[j])){
+                languageIssues[langs[j]] = {name: langs[j], issues_url: 0};
+            }
+            languageIssues[langs[j]]['issues_url'] += oneRepo['issues_url'];
+        }
+    }
+    return languageIssues;
+}
 module.exports = categoriser;
