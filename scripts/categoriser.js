@@ -3,54 +3,68 @@ var categoriser = {};
 categoriser.categoriseByLanguage = function (rawData) {
     var categorizedData = {};
     rawData.map(function (repo) {
-        var languages = Object.keys(JSON.parse(repo.languages_url));
-        for (i = 0; i < languages.length; i++) {
-            if (!categorizedData[languages[i]]) {
-                categorizedData[languages[i]] = {"USERS": 1, "STARS": repo.stargazers_url, "FORKS": repo.forks_url};
-            }
-            else {
-                categorizedData[languages[i]].USERS++;
-                categorizedData[languages[i]].STARS += repo.stargazers_url;
-                categorizedData[languages[i]].FORKS += repo.forks_url;
+        var languages = repo.languages;
+        if (languages && languages.length) {
+            for (i = 0; i < languages.length; i++) {
+                if (!categorizedData[languages[i]]) {
+                    categorizedData[languages[i]] = {"USERS": 1, "STARS": repo.star, "FORKS": repo.forks};
+                }
+                else {
+                    categorizedData[languages[i]].USERS++;
+                    categorizedData[languages[i]].STARS += repo.star;
+                    categorizedData[languages[i]].FORKS += repo.forks;
+                }
             }
         }
     });
     return categorizedData;
 };
 
-categoriser.categoriseByCommunity = function(rawData) {
+categoriser.categoriseByCommunity = function (rawData) {
     var categorizedData = {};
     rawData.map(function (repo) {
-        var community = repo.name.split('/')[0];
-        var project = repo.name.split('/')[1];
+        if (typeof repo == "object") {
+            var community = repo.name.split('/')[0];
+            var project = repo.name.split('/')[1];
             if (!categorizedData[community]) {
                 categorizedData[community] = {};
-                categorizedData[community][project] = {"CONTRIBUTORS": repo.contributors_url, "ISSUES": repo.issues_url, "SUBSCRIBERS": repo.subscribers_url, "COMMITS": repo.commits_url};
+                categorizedData[community][project] = {
+                    "CONTRIBUTORS": repo.contributers,
+                    "ISSUES": repo.issues,
+                    "COMMITS": repo.commits
+                };
+            }
+            else if (categorizedData[community] && !categorizedData[community][project]) {
+                categorizedData[community][project] = {
+                    "CONTRIBUTORS": repo.contributers,
+                    "ISSUES": repo.issues,
+                    "COMMITS": repo.commits
+                };
             }
             else {
-                categorizedData[community][project].USERS += repo.contributors_url;
-                categorizedData[community][project].ISSUES += repo.issues_url;
-                categorizedData[community][project].SUBSCRIBERS += repo.subscribers_url;
-                categorizedData[community][project].COMMITS += repo.commits_url;
+                categorizedData[community][project].USERS += repo.contributers;
+                categorizedData[community][project].ISSUES += repo.issues;
+                categorizedData[community][project].COMMITS += repo.commits;
             }
+        }
     });
     return categorizedData;
 }
 
-categoriser.languageByIssues = function(rawData) {
+categoriser.languageByIssues = function (rawData) {
     var languageIssues = {};
     for (var i = 0; i < rawData.length; i++) {
-        var data = rawData[i];
-        var languages = data['languages'];
-        for(var j = 0; j < languages.length; j++){
-            language = languages[j];
-            if(languageIssues.hasOwnProperty(language)){
-                languageIssues[language]['issues'] += parseInt(data['issues']);
-            }
-            else{
-                languageIssues[language] = {issues: parseInt(data['issues'])};
-            }
+        var oneRepo = rawData[i];
+        var languages = oneRepo['languages'];
+        if (languages && languages.length) {
+            languages.forEach(function (language) {
+                if (!languageIssues.hasOwnProperty(language)) {
+                    languageIssues[language] = {name: language, issues: 0};
+                }
+                languageIssues[language]['issues'] += +oneRepo['issues'];
+            });
         }
+
     }
     return languageIssues;
 }
