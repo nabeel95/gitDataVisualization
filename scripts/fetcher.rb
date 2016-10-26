@@ -1,13 +1,15 @@
 require 'open-uri'
+require 'net/http'
 require 'json'
+require "selenium-webdriver"
 
 class Exec
 
   HTML_PATH = '../data/sample.html'
-  WRITABLE_FILE_PATH = '../data/4500.json'
+  WRITABLE_FILE_PATH = '../data/main_data.json'
   READABLE_FILE_PATH = '../data/final_data.json'
   ERROR_FILE = '../data/errors.json'
-  CREDENTIALS = # put your credential  here
+  CREDENTIALS = 'akshay234&6a7ab2ea4f150e3e64009703d060d019e4a1f16e'
   
   def in_hash languages_url, name, contributors_url
     params = {}
@@ -15,29 +17,24 @@ class Exec
     begin
       html = File.read(HTML_PATH)
       data = html.split('<span class="num text-emphasized">')
-      params[:commits] = data[1].split("\n")[1].to_i
-      params[:branches] = data[2].split("\n")[1].to_i
-      params[:release] = data[3].split("\n")[1].to_i
-      begin
-        params[:contributers] = html.split('num text-emphasized')[4].split("\n")[1].to_i
-      rescue
-        p "fetch executed for #{name}"
-        params[:contributers] = get_data(contributors_url)
-      end
-      params[:watch] = html.split(' watching this repository">')[1].split("\n")[1].to_i
-      params[:star] = html.split('users starred this repository">')[1].split("\n")[1].to_i
-      params[:forks] = html.split(' forked this repository">')[1].split("\n")[1].to_i
+      params[:commits] = data[1].split("\n")[1].strip
+      params[:branches] = data[2].split("\n")[1].strip
+      params[:release] = data[3].split("\n")[1].strip
+      params[:contributers] = html.split('num text-emphasized')[4].split("\n")[1].strip
+      params[:watch] = html.split(' watching this repository">')[1].split("\n")[1].strip
+      params[:star] = html.split('users starred this repository">')[1].split("\n")[1].strip
+      params[:forks] = html.split(' forked this repository">')[1].split("\n")[1].strip
       issues_data = html.split('<span itemprop="name">Issues</span>')[1]
       params[:issues] = 0
       if issues_data != nil
-        params[:issues] = issues_data.split("\n")[1].strip.split(">")[1].split("<")[0]
+        params[:issues] = issues_data.split("\n")[1].strip.split(">")[1].split("<")[0].strip
       end
       pulls_data = html.split('<span itemprop="name">Pull requests</span>')[1]
       params[:pulls] = 0
       if pulls_data != nil
-        params[:pulls] = pulls_data.split("\n")[1].strip.split('>')[1].split("<")[0]
+        params[:pulls] = pulls_data.split("\n")[1].strip.split('>')[1].split("<")[0].strip
       end
-      params[:languages] = JSON.parse(open(languages_url+'?'+CREDENTIALS).read).keys
+      params[:languages] = JSON.parse(`curl -u akshay234:6a7ab2ea4f150e3e64009703d060d019e4a1f16e #{languages_url}`).keys
       params[:name] = name
       params
     rescue
@@ -65,11 +62,13 @@ class Exec
     data = getUnique(JSON.parse(repos_data))
     final_info = []
 
-    (4001..data.length).each do |i|
+    (3501..data.length).each do |i|
       begin
         p "processing repo no: #{i}"
         name = data[i]['name']
-        File.open(HTML_PATH, 'w') { |file| file.write(open("https://github.com/#{name}").read) }
+        url = "https://github.com/#{name}"
+        system('node', 'nightmare.js', url)
+
         fetched_repo_data = in_hash(data[i]['languages_url'], name, data[i]['contributors_url'])
         if fetched_repo_data != nil
           final_info.push(fetched_repo_data)
@@ -77,12 +76,12 @@ class Exec
           p name +' data = ' + fetched_repo_data.to_s
         end
       rescue
-        p "failed to fetch#{name}"
+        p "unable to get data of repo #{name}"
       end
 
     end
     file_data = File.read(WRITABLE_FILE_PATH)
-    # File.open(WRITABLE_FILE_PATH, 'w') { |file| file.write(JSON.parse(file_data).concat(final_info).to_json) }
+    File.open(WRITABLE_FILE_PATH, 'w') { |file| file.write(JSON.parse(file_data).concat(final_info).to_json) }
   end
 
   def getUnique data
